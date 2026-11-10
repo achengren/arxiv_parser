@@ -1,0 +1,13 @@
+arxiv:
+  delay_seconds: 3.0
+  max_results: 50
+  sort_by: "submittedDate"
+
+paths:
+  pdf_dir: "output/pdfs"
+  image_dir: "output/images"
+  result_dir: "output/results"
+
+output:
+  format: "json"
+  language: "zh"

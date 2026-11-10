@@ -1,0 +1,7 @@
+name: arxiv_parser
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python>=3.8
+  - pip

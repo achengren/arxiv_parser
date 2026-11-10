@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "arxiv-parser": {
+      "type": "stdio",
+      "command": "bash",
+      "args": [
+        "mcp_launch.sh"
+      ]
+    }
+  }
+}

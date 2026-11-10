@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv
+
+# Conda
+# 注意：environment.yml 应该被提交，但 conda 环境本身不应该
+# .condarc
+# conda-meta/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Output directories
+output/
+logs/
+
+# Distribution
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ============ 敏感配置文件（重要！）============
+# 环境变量文件（包含 API Keys）
+.env
+
+# 本地配置文件（可能包含敏感信息）
+config/config.local.yaml
+
+# 其他可能的敏感文件
+*.secret
+*.key
+credentials.json

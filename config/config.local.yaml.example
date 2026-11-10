@@ -1,0 +1,59 @@
+# arXiv Parser 本地配置模板
+# 复制此文件为 config.local.yaml 并修改配置
+# config.local.yaml 不会被上传到 GitHub
+
+# ============ LLM 配置 ============
+llm:
+  # 选择 provider: deepseek / ollama
+  provider: "deepseek"
+
+  # 模型名称
+  # DeepSeek: deepseek-chat, deepseek-coder
+  # Ollama: llama3.1, mistral, etc.
+  model: "deepseek-chat"
+
+  # API Key（建议从 .env 读取，不要直接写在这里）
+  # api_key: "your-api-key-here"
+
+  # 生成参数
+  temperature: 0.3
+  max_tokens: 4000
+
+# ============ 路径配置 ============
+paths:
+  # PDF 下载目录
+  pdf_dir: "output/pdfs"
+
+  # 图片提取目录
+  image_dir: "output/images"
+
+  # JSON 输出目录
+  result_dir: "output/results"
+
+  # LaTeX 源文件目录
+  source_dir: "output/sources"
+
+# ============ arXiv API 配置 ============
+arxiv:
+  # API 请求间隔（秒），避免被封禁
+  delay_seconds: 3.0
+
+  # 默认最大结果数
+  max_results: 50
+
+  # 排序方式: submittedDate / relevance / lastUpdatedDate
+  sort_by: "submittedDate"
+
+# ============ 输出配置 ============
+output:
+  # 输出格式: json / markdown
+  format: "json"
+
+  # 输出语言: zh / en / both
+  language: "zh"
+
+  # 是否生成问答对
+  include_qa: true
+
+  # 每篇论文生成的 QA 数量
+  qa_count: 5
