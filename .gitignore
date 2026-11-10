@@ -56,3 +56,5 @@ config/config.local.yaml
 *.secret
 *.key
 credentials.json
+test_scigraph_demo.py
+.mcp.json

@@ -6,6 +6,13 @@
       "args": [
         "mcp_launch.sh"
       ]
+    },
+    "SciGraph": {
+      "type": "http",
+      "url": "https://scp.intern-ai.org.cn/api/v1/mcp/37/SciGraph",
+      "headers": {
+        "SCP-HUB-API-KEY": "sk-2350ba23-9e10-425b-b8d6-930b9c2853fe"
+      }
     }
   }
 }
