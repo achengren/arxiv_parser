@@ -13,6 +13,13 @@
       "headers": {
         "SCP-HUB-API-KEY": "sk-2350ba23-9e10-425b-b8d6-930b9c2853fe"
       }
+    },
+    "DataStat-Tool": {
+      "type": "http",
+      "url": "https://scp.intern-ai.org.cn/api/v1/mcp/26/Data_processing_and_statistical_analysis",
+      "headers": {
+        "SCP-HUB-API-KEY": "sk-2350ba23-9e10-425b-b8d6-930b9c2853fe"
+      }
     }
   }
 }
